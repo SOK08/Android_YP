@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sessions"
+        tools:targetApi="31">
+        <activity
+            android:name="Session_5.Session5ActivityMain4"
+            android:exported="false" />
+        <activity
+            android:name="Session_5.Session5ActivityMain3"
+            android:exported="false" />
+        <activity
+            android:name="Session_5.Session5ActivityMain2"
+            android:exported="false" />
+        <activity
+            android:name="Session_4.Session4ActivityMain5"
+            android:exported="false" />
+        <activity
+            android:name="Session_4.Session4ActivityMain4"
+            android:exported="false" />
+        <activity
+            android:name="Session_4.Session4ActivityMain3"
+            android:exported="false" />
+        <activity
+            android:name="Session_4.Session4ActivityMain2"
+            android:exported="false" />
+        <activity
+            android:name="Session_4.Session4ActivityMain1"
+            android:exported="false" />
+        <activity
+            android:name="Session_3.Session3ActivityMain5"
+            android:exported="false" />
+        <activity
+            android:name="Session_3.Session3ActivityMain4"
+            android:exported="false" />
+        <activity
+            android:name="Session_3.Session3ActivityMain3"
+            android:exported="false" />
+        <activity
+            android:name="Session_5.Session5ActivityMain1"
+            android:exported="false" />
+        <activity
+            android:name="Session_3.Session3ActivityMain2"
+            android:exported="false" />
+        <activity
+            android:name="Session_3.Session3ActivityMain1"
+            android:exported="false" />
+        <activity
+            android:name="Session_2.Session2ActivityMain5"
+            android:exported="false" />
+        <activity
+            android:name="Session_2.Session2ActivityMain4"
+            android:exported="false" />
+        <activity
+            android:name="Session_2.Session2ActivityMain3"
+            android:exported="false" />
+        <activity
+            android:name="Session_2.Session2ActivityMain2"
+            android:exported="false" />
+        <activity
+            android:name="Session_2.Session2ActivityMain"
+            android:exported="false" />
+        <activity
+            android:name="Session_1.Screen4"
+            android:exported="false" />
+        <activity
+            android:name="Session_1.Screen3"
+            android:exported="false" />
+        <activity
+            android:name="Session_1.Screen2"
+            android:exported="false" />
+        <activity
+            android:name="Session_1.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
